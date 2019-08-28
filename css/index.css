@@ -47,9 +47,9 @@ html, body{
     padding: 0 2%;
     height: 610px;
     background-image: url(../images/banner.jpg);
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: top;
-    min-width: 1200px;
+    min-width: 1280px;
     
 
 }
@@ -131,7 +131,7 @@ html, body{
 .logo-redes-sociais {
     margin: 10px 112px;
     margin-top: 20px;
-    
+    text-align: center;
 }
 
 
@@ -171,34 +171,12 @@ html, body{
 
 }
 
-
-/* estilo da section */
-
-.section {
-    padding: 90px 2%;
+.center h2 {
+ font-size: 37px;
 }
 
-.section h2{
-    text-align: center;
-    color: #462663;
-    font-weight: normal;
-}
-
-.container-section {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.single {
-    float: left;
-    width: 33.333%;
-    padding: 30px;
-}
-
-.single p {
-    padding: 10px 10px;
-    text-align: justify;
-    display: inline-block;
+.center p {
+    font-size: 20px;
 }
 
 /* adicionando design responsivo */
