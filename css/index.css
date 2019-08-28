@@ -35,7 +35,7 @@ html, body{
 
 .header {
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #FD8402;
     padding: 0 2%;
 }
@@ -45,11 +45,13 @@ html, body{
 .conteiner-banner {
     width: 100%;
     padding: 0 2%;
-    height: 557px;
+    height: 610px;
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: top;
     min-width: 1200px;
+    
+
 }
 
 
@@ -62,22 +64,27 @@ html, body{
 
 .form {
     padding: 10px;
-    width: 400px;
-    height:100%;
-    background-color: white;
+    width: 350px;
+    height:610px;
+    background-color:rgba(205, 205, 205,0.3);
     float: right;
-    border: 8px solid #ccc;
+    
 }
 
-.form > h2 {
+.form > span {
+
+    margin-left: 15px;
     font-weight: normal;
-    color: #999999;
-    font-size: 20px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
 
 }
+
 
 .form p{
     margin: 20px 0;
+    color: white;
 }
 
 .input-conteiner{
@@ -88,23 +95,23 @@ html, body{
 .input-conteiner > span {
     display: inline-block;
     width: 100%;
-    color: #BBBBBB;
+    color: white;
     font-size: 17px;
 }
 
 .input-conteiner input[type=text] {
-    width: 344px;
-    height: 55px;
+    width: 300px;
+    height: 40px;
     border: 1px solid #ccc;
     margin-top: 8px;
 }
 
 .form input[type=submit]{
-    width: 280px;
-    height: 56px;
-    background-color: blue;
+    width: 230px;
+    height: 70px;
+    background-color: #FD8402;
     color:white;
-    font-size: 25px;
+    font-size: 20px;
     display: inline-block;
     cursor: pointer;
     border: 0;
@@ -118,25 +125,15 @@ html, body{
     text-align: center;
 }
 
-/* estilo da lista no banner */
 
-.container-list {
-    float: left;
-    width: 519px;
-    height: 270px;
-    background-color: rgba(33,35,67,0.7);
-    margin-top: 100px;
-    padding: 60px;
+/*estilo do logo das redes sociais*/
+
+.logo-redes-sociais {
+    margin: 10px 112px;
+    margin-top: 20px;
+    
 }
 
-.container-list ul {
-    list-style-position: inside;
-}
-
-.container-list ul li {
-    color: white;
-    margin-top: 18px;
-}
 
 /* estilo do conteudo do site */
 
@@ -202,19 +199,7 @@ html, body{
     padding: 10px 10px;
     text-align: justify;
     display: inline-block;
-
-/* estilo do footer */
-
-.footer {
-    padding:20px 0 ;
-    text-align: center;
-    border: 2px solid #888888;
 }
-
-.footer p {
-    margin-top: 8px;
-}
-
 
 /* adicionando design responsivo */
 
