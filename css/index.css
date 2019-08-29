@@ -171,3 +171,9 @@ html, body{
 .center p {
     font-size: 20px;
 }
+
+
+.links > a{
+    background-color: #FD8402;
+    color: #ddd
+}
